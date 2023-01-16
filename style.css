@@ -54,19 +54,19 @@ body{
     100% {background: rgb(255, 255, 255);}
   }
 .box:hover {
-    animation: glow 1s;
+    animation: glow 2s;
     animation-iteration-count: 1;
   }
   .box.animated {
-    animation: glow 1s;
+    animation: glow 2s;
     animation-iteration-count: 1;
   }
 
   .configure{
     font-family:serif;
     position: fixed;
-    height: 20vh;
-    width: 20vw;
+    height: 10rem;
+    width: 15rem;
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.549);
     display: flex;
